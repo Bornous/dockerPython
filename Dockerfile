@@ -1,8 +1,7 @@
-FROM alpine:latest
+FROM frolvlad/alpine-python3:latest
 
 #UPDATE
-RUN apk add --update python3 py-pip
-RUN pip install --upgrade pip
+RUN pip3 install --upgrade pip
 
 #Install app depencies
 RUN pip3 install Flask
