@@ -1,10 +1,10 @@
-FROM alpine:3.1
+FROM alpine:latest
 
 #UPDATE
 RUN apk add --update python py-pip
 
 #Install app depencies
-RUN pip install flask
+RUN pip install Flask
 
 #Bundle app source
 COPY simpleapp.py /src/simpleapp.py
