@@ -13,7 +13,7 @@ def hello_world():
     return "Hello world from Distelli & Docker!"
 
 if __name__ == '__main__':
-    parser = optparse.OptionParser(usage="python simpleapp.py -p ")
+    parser = optparse.OptionParser(usage="python3 simpleapp.py -p ")
     parser.add_option('-p', '--port', action='store', dest='port', help='The port to listen on.')
     (args, _) = parser.parse_args()
     if args.port == None:
