@@ -9,8 +9,11 @@ start = int(round(time.time()))
 
 @app.route("/")
 def hello_world():
-
     return "Hello world from Distelli & Docker!"
+
+@app.route("/doc_choose")
+def doc_choose():
+    return "<h1>Wybierz raport:</h1><div>Zmiana w pensum</div>"
 
 if __name__ == '__main__':
     parser = optparse.OptionParser(usage="python3 simpleapp.py -p ")
