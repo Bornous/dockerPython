@@ -1,0 +1,5 @@
+[KOMBAJN-PJJG\OPTIVUM_2014]
+Driver      = ODBC Driver 17 for SQL Server
+Description = KOMBAJN-PJJG\OPTIVUM_2014
+Trace       = No
+Server      = 10.0.2.2:1433
